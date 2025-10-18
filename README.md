@@ -14,7 +14,7 @@ A comprehensive automated testing framework for User Management RESTful APIs, bu
 ## API Coverage
 
 | API Endpoint | Method | Status |
-|-------------|--------|------------|--------|
+|-------------|--------|------------|
 | Create User | POST | Covered |
 | Get User Details | GET | Covered |
 | Update User Email | PUT | Covered |
@@ -34,8 +34,8 @@ A comprehensive automated testing framework for User Management RESTful APIs, bu
 
 1. **Clone the repository:**
 ```bash
-git clone <repository-url>
-cd novum_studio
+git clone https://github.com/AkilaPonmudi1994/api_test.git
+cd api_test
 ```
 
 2. **Create virtual environment (recommended):**
@@ -101,7 +101,7 @@ pytest testcases/ --alluredir=reports
 ## Project Structure
 
 ```
-novum_studio/
+api_test/
 ├── api/                          # API layer components
 │   ├── __init__.py
 │   ├── base_api.py              # Base API client mocking
