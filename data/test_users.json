@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "username": "testuser1",
+    "email": "test1@novumstudio.com",
+    "password": "password123"
+  },
+  {
+    "id": 2,
+    "username": "testuser2",
+    "email": "test2@novumstudio.com",
+    "password": "password456"
+  },
+  {
+    "id": 3,
+    "username": "admin_user",
+    "email": "admin@novumstudio.com",
+    "password": "admin123"
+  }
+]

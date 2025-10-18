@@ -1,0 +1,87 @@
+{
+  "create_user_success": {
+    "code": 200,
+    "data": {
+      "id": 1,
+      "username": "testuser1"
+    },
+    "msg": "success"
+  },
+  "get_user_success": {
+    "code": 200,
+    "data": {
+      "id": 1,
+      "username": "testuser1",
+      "email": "test1@novumstudio.com"
+    },
+    "msg": "success"
+  },
+  "update_user_success": {
+    "code": 200,
+    "data": null,
+    "msg": "success"
+  },
+  "delete_user_success": {
+    "code": 200,
+    "data": null,
+    "msg": "success"
+  },
+  "batch_query_success": {
+    "code": 200,
+    "data": {
+      "total": 1,
+      "list": [
+        {
+          "id": 1,
+          "username": "testuser1"
+        }
+      ]
+    },
+    "msg": "success"
+  },
+  "user_not_found": {
+    "code": 404,
+    "data": null,
+    "msg": "User not found"
+  },
+  "invalid_parameters": {
+    "code": 400,
+    "data": null,
+    "msg": "Invalid parameters"
+  },
+  "duplicate_username": {
+    "code": 409,
+    "data": null,
+    "msg": "Username already exists"
+  },
+  "server_error": {
+    "code": 500,
+    "data": null,
+    "msg": "Internal server error"
+  },
+  "duplicate_email": {
+    "code": 409,
+    "data": null,
+    "msg": "Email already exists"
+  },
+  "username_too_long": {
+    "code": 400,
+    "data": null,
+    "msg": "Username exceeds maximum length"
+  },
+  "invalid_username_format": {
+    "code": 400,
+    "data": null,
+    "msg": "Username contains invalid characters"
+  },
+  "email_too_long": {
+    "code": 400,
+    "data": null,
+    "msg": "Email address too long"
+  },
+  "password_too_weak": {
+    "code": 400,
+    "data": null,
+    "msg": "Password does not meet security requirements"
+  }
+}
